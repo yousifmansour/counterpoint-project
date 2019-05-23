@@ -3,6 +3,8 @@
 ## TL;DR
 Trained on JS Bach’s counterpuntal works, an ecoder-decoder LSTM model produces a sequence of notes that sounds nice with a given input sequence.
 
+Checkout examples here: https://www.yousifmansour.space/counterpoint-project-examples/
+
 ## What is counterpoint?
 Counterpoint in music is the is the relationship between voices that are harmonically interdependent yet independent in rhythm and contour. 
 There are a lot of rules that say how correct counterpoint can be contructed, but in many cases, composers and musicians end up just creating free-form counterpoint.
@@ -16,7 +18,7 @@ The idea here was to think of the problem of [sequence of musical notes] => [seq
 ## What dataset was used to train for this?
 JS Bach was a very smart guy. He had created 2 books containing a collection of 24 musical compositions (in astyle called fugues), so 48 in total. The collections have a fugue for each key and in both major and minor (the books are called The Well Tempered Clavier I and II, which mean that the compositions (when played on the clavier, or keyboard) are not biased towards any musical key or scale). 
 Since there are many people that have been recorded playing them, there are MIDI files avalible online that contain all the notes for all the voices for these fugues.
-So the data set is generated from them. For more, read the [project report here](https://github.com/yousifmansour/counterpoint-project/blob/master/Project%20Report%20-%20Mirabelle%20Dib%20and%20Yousif%20Mansour.pdf).
+So the data set is generated from them. For more, read the [project report here](https://www.yousifmansour.space/counterpoint-examples/project_report.pdf).
 
 ## How to work with the files in this repo?
 Run the python notebooks and follow each part of the code.
